@@ -45,3 +45,6 @@ from sites not explicitly approved for automation.
 See [Candidate Source Shortlist](CANDIDATE_SOURCE_SHORTLIST.md) for source
 categories and provenance rules. Record each proposed source with the
 [Source Review Workflow](SOURCE_REVIEW_WORKFLOW.md) before approval.
+
+For public/government-like sources, follow the
+[Public Source Review Plan](PUBLIC_SOURCE_REVIEW_PLAN.md).
