@@ -20,7 +20,8 @@ the sheet usable for manual work.
 | sample_site_concept_status, sample_site_concept_notes | Required | Draft/review state |
 | outreach_message_status, outreach_channel, contact_permission_status | Required | Never implies approval to send |
 | human_review_status, human_review_notes, candidate_status | Required | Lifecycle and review decision |
-| contacted_at, reply_status, meeting_status, deal_status | Optional | Fill after approved manual action |
+| contact_attempt_count, contacted_at, last_contacted_at, next_follow_up_at, contact_history_note | Optional | Fill after approved manual action |
+| reply_status, meeting_status, deal_status | Optional | Fill after approved manual action |
 | lost_reason, closed_reason, next_action, owner, notes | Optional | Facts, assumptions, and questions labeled |
 
 ## Controlled vocabulary
@@ -47,3 +48,6 @@ the sheet usable for manual work.
 **Decision:** `candidate_status` must use the values and transitions in
 [Candidate Status Lifecycle](CANDIDATE_STATUS_LIFECYCLE.md). Multi-value signal
 fields use a consistent delimiter selected by the experiment owner.
+
+The header-only working template is at
+[`data/templates/first_100_candidates_template.csv`](../../data/templates/first_100_candidates_template.csv).

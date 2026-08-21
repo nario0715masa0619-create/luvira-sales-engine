@@ -15,3 +15,7 @@ before outreach.
 
 The exact gate for `Approved For Outreach` is defined in
 [Candidate Status Lifecycle](../data/CANDIDATE_STATUS_LIFECYCLE.md).
+
+**Decision:** Each follow-up requires human approval and must comply with the
+two-attempt limit in the first experiment. A no-contact request or prohibition
+ends contact activity immediately.

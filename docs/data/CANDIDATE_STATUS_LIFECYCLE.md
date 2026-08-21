@@ -16,9 +16,15 @@ for approval, rejection, contact, and outcome transitions.
 | Contacted | Human sent a reviewed message manually | Replied, Lost, Archived | Human records | No |
 | Replied | A response was received | Meeting Scheduled, Won, Lost, Archived | Human records | No |
 | Meeting Scheduled | A meeting is arranged | Won, Lost, Archived | Human records | No |
-| Won | Paid order confirmed | Archived | Human records | Yes |
-| Lost | Sales attempt closed without order | Archived | Human records | Yes |
-| Archived | Record retained with a closed reason | — | Human records | Yes |
+| Won | Paid order confirmed | Archived | Human records | Commercial terminal |
+| Lost | Sales attempt closed without order | Archived | Human records | Commercial terminal |
+| Archived | Record retained with a closed reason | — | Human records | Administrative terminal |
+
+**Decision:** `Won` and `Lost` are commercial terminal statuses: no further
+active sales progression is expected, but either may move once to `Archived` for
+administrative closure. `Archived` is the administrative terminal status and
+must not normally return to an active workflow unless a future approved process
+explicitly reopens it.
 
 ## Outreach gate
 
@@ -30,3 +36,6 @@ sample/message contain no invented or misleading company facts.
 **Decision:** A reviewer may return any non-terminal record to `Researching` or
 `Needs Human Review` when evidence changes. Never bypass review by moving from
 `Discovered` directly to `Contacted`.
+
+Follow-up limits and recording fields are defined in
+[First 100-Company Experiment](../product/FIRST_100_COMPANY_EXPERIMENT.md).

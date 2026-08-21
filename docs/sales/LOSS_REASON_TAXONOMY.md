@@ -17,4 +17,5 @@
 | Other | Explain in notes |
 
 **Decision:** Record only stated or observed reasons. Do not infer motivation
-from silence; use `No Response`.
+from silence; use `No Response` only after the first experiment's follow-up
+window has passed.

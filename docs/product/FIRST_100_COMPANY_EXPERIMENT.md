@@ -36,6 +36,18 @@ response, meeting, and win rates; revenue; and segment-level performance.
 Rates use contacted candidates as the denominator unless a different denominator
 is explicitly labeled. Revenue is confirmed paid order value only.
 
+## Follow-up policy
+
+**Decision:** The MVP permits at most two human-approved contact attempts: the
+initial outreach, then one follow-up after 5–7 business days if there is no
+reply and no contact prohibition. Record each action in `contact_attempt_count`,
+`last_contacted_at`, `next_follow_up_at`, and `contact_history_note`.
+
+**Decision:** Select `No Response` only after the follow-up window has passed.
+Do not follow up after an opt-out, a stated prohibition, a request for no
+contact, or any unresolved review concern. A third or later attempt needs
+explicit human approval.
+
 ## Success interpretation
 
 **Hypothesis:** At least 50 human-reviewable candidates and 50 outreach-ready

@@ -47,6 +47,9 @@ material sets, and conduct a manual or semi-manual first outreach batch.
 See [MVP experiment](docs/product/MVP_EXPERIMENT.md).
 The practical first-cohort design is in
 [First 100-Company Experiment](docs/product/FIRST_100_COMPANY_EXPERIMENT.md).
+Use the header-only manual working template in
+[`data/templates`](data/templates/README.md); do not commit real candidate data
+without intentional approval.
 
 ## Safety and data-source principles
 
