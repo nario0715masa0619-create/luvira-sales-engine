@@ -22,3 +22,7 @@
 | notes | Clearly labeled facts, assumptions, and questions |
 
 **Decision:** Unknown values remain unknown; do not infer them.
+
+For the first experiment's CSV-compatible field set and controlled values, see
+[First 100-Company Candidate Schema](FIRST_100_CANDIDATE_SCHEMA.md). Candidate
+lifecycle values are defined in [Candidate Status Lifecycle](CANDIDATE_STATUS_LIFECYCLE.md).

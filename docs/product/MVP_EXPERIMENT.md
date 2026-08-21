@@ -26,6 +26,9 @@ Candidates.
 contacted count, replies, meetings, wins/losses, and loss reasons. One meeting
 is meaningful success; one paid order is strong success.
 
+The operational schema, lifecycle, source shortlist, and cohort allocation are
+defined in [First 100-Company Experiment](FIRST_100_COMPANY_EXPERIMENT.md).
+
 ## Open Questions
 
 - What defines the initial batch size and review SLA?

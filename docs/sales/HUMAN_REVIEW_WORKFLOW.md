@@ -12,3 +12,6 @@
 **Decision:** Any unresolved identity, provenance, prohibition, or factual claim
 puts the record in `Needs Human Review` or `Manual Hold`. Approval is required
 before outreach.
+
+The exact gate for `Approved For Outreach` is defined in
+[Candidate Status Lifecycle](../data/CANDIDATE_STATUS_LIFECYCLE.md).

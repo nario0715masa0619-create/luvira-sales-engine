@@ -13,6 +13,11 @@ validation experiment. It produces structured, reviewable candidate records and
 company-specific preparation materials; it does not implement production
 software or automate contact.
 
+## Business objective
+
+**Decision:** The MVP's primary business goal is real sales opportunities and
+short-term revenue validation, not building a perfect company database.
+
 ## Value proposition
 
 **Hypothesis:** A sales/inquiry-flow improvement package is more compelling than
