@@ -50,6 +50,9 @@ The practical first-cohort design is in
 Use the header-only manual working template in
 [`data/templates`](data/templates/README.md); do not commit real candidate data
 without intentional approval.
+Source records use the separate
+[source-review workflow](docs/data/SOURCE_REVIEW_WORKFLOW.md) and require human
+approval before collection.
 
 ## Safety and data-source principles
 

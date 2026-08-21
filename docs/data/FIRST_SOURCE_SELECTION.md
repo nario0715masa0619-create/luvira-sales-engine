@@ -43,4 +43,5 @@ commercial use, purchased lists without provenance, or automated extraction
 from sites not explicitly approved for automation.
 
 See [Candidate Source Shortlist](CANDIDATE_SOURCE_SHORTLIST.md) for source
-categories and provenance rules.
+categories and provenance rules. Record each proposed source with the
+[Source Review Workflow](SOURCE_REVIEW_WORKFLOW.md) before approval.
